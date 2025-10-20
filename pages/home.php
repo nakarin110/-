@@ -80,9 +80,9 @@
     </style>
 </head>
 <body>
-    <div class="flex h-screen bg-gray-50">
+    <div class="relative min-h-screen lg:flex">
         <!-- Sidebar -->
-        <aside class="w-64 bg-white border-r border-gray-200 flex flex-col fixed h-full">
+        <aside id="sidebar" class="w-64 bg-white border-r border-gray-200 flex-col fixed h-full z-50 transform -translate-x-full lg:translate-x-0 transition-transform duration-300 ease-in-out">
             <div class="p-6 border-b border-gray-100">
                 <h1 class="text-2xl font-bold text-gray-900">
                     <i class="fas fa-shopping-bag text-purple-600 mr-2"></i>MyStore
@@ -181,13 +181,17 @@
         </aside>
         
         <!-- Main Content -->
-        <main class="flex-1 ml-64 overflow-y-auto">
+        <main class="flex-1 lg:ml-64">
             <!-- Top Navigation -->
             <header class="sticky top-0 bg-white border-b border-gray-200 z-40">
                 <div class="px-8 py-4 flex items-center justify-between">
-                    <div class="flex gap-6">
-                        <a href="#" class="text-gray-700 hover:text-purple-600 font-medium transition">สินค้าใหม่</a>
-                        <a href="#" class="text-gray-700 hover:text-purple-600 font-medium transition">ขายดี</a>
+                    <div class="flex items-center gap-6">
+                        <!-- Hamburger Menu Button -->
+                        <button id="menu-button" class="lg:hidden text-gray-700 hover:text-purple-600 focus:outline-none">
+                            <i class="fas fa-bars text-xl"></i>
+                        </button>
+                        <a href="#" class="hidden sm:block text-gray-700 hover:text-purple-600 font-medium transition">สินค้าใหม่</a>
+                        <a href="#" class="hidden sm:block text-gray-700 hover:text-purple-600 font-medium transition">ขายดี</a>
                         <a href="#" class="text-gray-700 hover:text-purple-600 font-medium transition">ลดราคา</a>
                         <a href="#" class="text-gray-700 hover:text-purple-600 font-medium transition">ทั้งหมด</a>
                     </div>
@@ -413,5 +417,24 @@
             </div>
         </main>
     </div>
+
+    <!-- Overlay for mobile menu -->
+    <div id="overlay" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden lg:hidden"></div>
+
+    <script>
+        const menuButton = document.getElementById('menu-button');
+        const sidebar = document.getElementById('sidebar');
+        const overlay = document.getElementById('overlay');
+
+        menuButton.addEventListener('click', () => {
+            sidebar.classList.toggle('-translate-x-full');
+            overlay.classList.toggle('hidden');
+        });
+
+        overlay.addEventListener('click', () => {
+            sidebar.classList.add('-translate-x-full');
+            overlay.classList.add('hidden');
+        });
+    </script>
 </body>
 </html>
