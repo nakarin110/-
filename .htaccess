@@ -1,0 +1,11 @@
+# -- ตั้งค่า PHP ให้รับไฟล์ใหญ่ขึ้น (กรณีโฮสต์อนุญาต) --
+php_value upload_max_filesize 512M
+php_value post_max_size 512M
+php_value max_execution_time 300
+php_value max_input_time 300
+
+# -- Rewrite rules ที่คุณมีอยู่เดิม --
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ index.php [QSA,L]
