@@ -269,14 +269,16 @@
                     
                     <div class="grid grid-cols-4 gap-6">
                         <!-- Product Card 1 -->
-                        <div class="bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm card-hover">
+                        <div class="bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm card-hover flex flex-col">
                             <div class="relative h-48 bg-gray-100 overflow-hidden">
                                 <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&q=80" alt="Running Shoes" class="w-full h-full object-cover hover:scale-110 transition duration-500"/>
                                 <span class="product-badge">ลดราคา 20%</span>
                             </div>
-                            <div class="p-4">
-                                <h3 class="font-semibold text-gray-900 mb-2">รองเท้าวิ่ง Nike</h3>
-                                <p class="text-sm text-gray-600 mb-4">รองเท้าวิ่งคุณภาพสูง สำหรับนักกีฬา</p>
+                            <div class="p-4 flex flex-col flex-grow">
+                                <div class="flex-grow">
+                                    <h3 class="font-semibold text-gray-900 mb-2">รองเท้าวิ่ง Nike</h3>
+                                    <p class="text-sm text-gray-600 mb-4">รองเท้าวิ่งคุณภาพสูง สำหรับนักกีฬา</p>
+                                </div>
                                 <div class="flex items-center justify-between mb-4">
                                     <span class="text-2xl font-bold text-purple-600">฿2,500</span>
                                     <div class="flex text-yellow-400 text-sm">
@@ -294,14 +296,16 @@
                         </div>
                         
                         <!-- Product Card 2 -->
-                        <div class="bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm card-hover">
+                        <div class="bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm card-hover flex flex-col">
                             <div class="relative h-48 bg-gray-100 overflow-hidden">
                                 <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&q=80" alt="Wireless Headphones" class="w-full h-full object-cover hover:scale-110 transition duration-500"/>
                                 <span class="product-badge" style="background: #10b981;">ใหม่</span>
                             </div>
-                            <div class="p-4">
-                                <h3 class="font-semibold text-gray-900 mb-2">หูฟังไร้สาย</h3>
-                                <p class="text-sm text-gray-600 mb-4">เสียงคุณภาพ ที่ยืนยาว 30 ชั่วโมง</p>
+                            <div class="p-4 flex flex-col flex-grow">
+                                <div class="flex-grow">
+                                    <h3 class="font-semibold text-gray-900 mb-2">หูฟังไร้สาย</h3>
+                                    <p class="text-sm text-gray-600 mb-4">เสียงคุณภาพ ที่ยืนยาว 30 ชั่วโมง</p>
+                                </div>
                                 <div class="flex items-center justify-between mb-4">
                                     <span class="text-2xl font-bold text-purple-600">฿3,200</span>
                                     <div class="flex text-yellow-400 text-sm">
@@ -319,13 +323,15 @@
                         </div>
                         
                         <!-- Product Card 3 -->
-                        <div class="bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm card-hover">
+                        <div class="bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm card-hover flex flex-col">
                             <div class="relative h-48 bg-gray-100 overflow-hidden">
                                 <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300&q=80" alt="Smart Watch" class="w-full h-full object-cover hover:scale-110 transition duration-500"/>
                             </div>
-                            <div class="p-4">
-                                <h3 class="font-semibold text-gray-900 mb-2">นาฬิกาอัจฉริยะ</h3>
-                                <p class="text-sm text-gray-600 mb-4">นาฬิกาอัจฉริยะพร้อม GPS และ HR Monitor</p>
+                            <div class="p-4 flex flex-col flex-grow">
+                                <div class="flex-grow">
+                                    <h3 class="font-semibold text-gray-900 mb-2">นาฬิกาอัจฉริยะ</h3>
+                                    <p class="text-sm text-gray-600 mb-4">นาฬิกาอัจฉริยะพร้อม GPS และ HR Monitor</p>
+                                </div>
                                 <div class="flex items-center justify-between mb-4">
                                     <span class="text-2xl font-bold text-purple-600">฿4,990</span>
                                     <div class="flex text-yellow-400 text-sm">
@@ -343,14 +349,16 @@
                         </div>
                         
                         <!-- Product Card 4 -->
-                        <div class="bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm card-hover">
+                        <div class="bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm card-hover flex flex-col">
                             <div class="relative h-48 bg-gray-100 overflow-hidden">
                                 <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300&q=80" alt="Backpack" class="w-full h-full object-cover hover:scale-110 transition duration-500"/>
                                 <span class="product-badge">ลดราคา 30%</span>
                             </div>
-                            <div class="p-4">
-                                <h3 class="font-semibold text-gray-900 mb-2">กระเป๋าเดินทาง</h3>
-                                <p class="text-sm text-gray-600 mb-4">กระเป๋าเดินทางทำจากวัสดุเกรด A ทนทาน</p>
+                            <div class="p-4 flex flex-col flex-grow">
+                                <div class="flex-grow">
+                                    <h3 class="font-semibold text-gray-900 mb-2">กระเป๋าเดินทาง</h3>
+                                    <p class="text-sm text-gray-600 mb-4">กระเป๋าเดินทางทำจากวัสดุเกรด A ทนทาน</p>
+                                </div>
                                 <div class="flex items-center justify-between mb-4">
                                     <span class="text-2xl font-bold text-purple-600">฿1,800</span>
                                     <div class="flex text-yellow-400 text-sm">
