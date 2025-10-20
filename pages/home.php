@@ -82,7 +82,7 @@
 <body>
     <div class="flex h-screen bg-gray-50">
         <!-- Sidebar -->
-        <aside class="w-64 bg-white border-r border-gray-200 flex flex-col fixed h-full overflow-y-auto">
+        <aside class="w-64 bg-white border-r border-gray-200 flex flex-col fixed h-full">
             <div class="p-6 border-b border-gray-100">
                 <h1 class="text-2xl font-bold text-gray-900">
                     <i class="fas fa-shopping-bag text-purple-600 mr-2"></i>MyStore
@@ -98,31 +98,44 @@
                 
                 <div class="pt-4 border-t border-gray-100">
                     <p class="text-xs font-semibold text-gray-400 uppercase px-4 mb-3">หมวดหมู่</p>
-                    
-                    <a href="#" class="flex items-center px-4 py-2 text-gray-700 hover:text-purple-600 sidebar-nav">
-                        <i class="fas fa-shoe-prints w-5 mr-3"></i>
-                        <span>รองเท้า</span>
-                    </a>
-                    
-                    <a href="#" class="flex items-center px-4 py-2 text-gray-700 hover:text-purple-600 sidebar-nav">
-                        <i class="fas fa-headphones w-5 mr-3"></i>
-                        <span>เครื่องใช้ไฟฟ้า</span>
-                    </a>
-                    
-                    <a href="#" class="flex items-center px-4 py-2 text-gray-700 hover:text-purple-600 sidebar-nav">
-                        <i class="fas fa-clock w-5 mr-3"></i>
-                        <span>นาฬิกา</span>
-                    </a>
-                    
-                    <a href="#" class="flex items-center px-4 py-2 text-gray-700 hover:text-purple-600 sidebar-nav">
-                        <i class="fas fa-backpack w-5 mr-3"></i>
-                        <span>กระเป๋า</span>
-                    </a>
-                    
-                    <a href="#" class="flex items-center px-4 py-2 text-gray-700 hover:text-purple-600 sidebar-nav">
-                        <i class="fas fa-shirt w-5 mr-3"></i>
-                        <span>เสื้อผ้า</span>
-                    </a>
+                    <div class="overflow-y-auto max-h-48">
+                        <a href="#" class="flex items-center px-4 py-2 text-gray-700 hover:text-purple-600 sidebar-nav">
+                            <i class="fas fa-shoe-prints w-5 mr-3"></i>
+                            <span>รองเท้า</span>
+                        </a>
+
+                        <a href="#" class="flex items-center px-4 py-2 text-gray-700 hover:text-purple-600 sidebar-nav">
+                            <i class="fas fa-headphones w-5 mr-3"></i>
+                            <span>เครื่องใช้ไฟฟ้า</span>
+                        </a>
+
+                        <a href="#" class="flex items-center px-4 py-2 text-gray-700 hover:text-purple-600 sidebar-nav">
+                            <i class="fas fa-clock w-5 mr-3"></i>
+                            <span>นาฬิกา</span>
+                        </a>
+
+                        <a href="#" class="flex items-center px-4 py-2 text-gray-700 hover:text-purple-600 sidebar-nav">
+                            <i class="fas fa-backpack w-5 mr-3"></i>
+                            <span>กระเป๋า</span>
+                        </a>
+
+                        <a href="#" class="flex items-center px-4 py-2 text-gray-700 hover:text-purple-600 sidebar-nav">
+                            <i class="fas fa-shirt w-5 mr-3"></i>
+                            <span>เสื้อผ้า</span>
+                        </a>
+                        <a href="#" class="flex items-center px-4 py-2 text-gray-700 hover:text-purple-600 sidebar-nav">
+                            <i class="fas fa-car w-5 mr-3"></i>
+                            <span>ยานยนต์</span>
+                        </a>
+                        <a href="#" class="flex items-center px-4 py-2 text-gray-700 hover:text-purple-600 sidebar-nav">
+                            <i class="fas fa-book w-5 mr-3"></i>
+                            <span>หนังสือ</span>
+                        </a>
+                        <a href="#" class="flex items-center px-4 py-2 text-gray-700 hover:text-purple-600 sidebar-nav">
+                            <i class="fas fa-gamepad w-5 mr-3"></i>
+                            <span>เกม</span>
+                        </a>
+                    </div>
                 </div>
                 
                 <div class="pt-4 border-t border-gray-100">
