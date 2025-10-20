@@ -267,7 +267,7 @@
                         </div>
                     </div>
                     
-                    <div class="grid grid-cols-5 gap-6">
+                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
                         <!-- Product Card 1 -->
                         <div class="bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm card-hover flex flex-col">
                             <div class="relative aspect-square bg-gray-100 overflow-hidden">
@@ -276,7 +276,7 @@
                             </div>
                             <div class="p-4 flex flex-col flex-grow">
                                 <div class="flex-grow">
-                                    <h3 class="font-semibold text-gray-900 mb-2">กล่องสุ่มแร็คคูน</h3>
+                                    <h3 class="font-semibold text-gray-900 mb-2 truncate">กล่องสุ่มแร็คคูน</h3>
                                     <p class="text-sm text-gray-600 mb-4">กล่องสุ่มแร็คคูน</p>
                                 </div>
                                 <div class="flex items-center justify-between mb-4">
@@ -303,7 +303,7 @@
                             </div>
                             <div class="p-4 flex flex-col flex-grow">
                                 <div class="flex-grow">
-                                    <h3 class="font-semibold text-gray-900 mb-2">กล่องสุ่มแมลงป่อง</h3>
+                                    <h3 class="font-semibold text-gray-900 mb-2 truncate">กล่องสุ่มแมลงป่อง</h3>
                                     <p class="text-sm text-gray-600 mb-4">กล่องสุ่มแมลงป่อง</p>
                                 </div>
                                 <div class="flex items-center justify-between mb-4">
@@ -329,7 +329,7 @@
                             </div>
                             <div class="p-4 flex flex-col flex-grow">
                                 <div class="flex-grow">
-                                    <h3 class="font-semibold text-gray-900 mb-2">กล่องสุ่มราชินีผึ้ง</h3>
+                                    <h3 class="font-semibold text-gray-900 mb-2 truncate">กล่องสุ่มราชินีผึ้ง</h3>
                                     <p class="text-sm text-gray-600 mb-4">กล่องสุ่มราชินีผึ้ง</p>
                                 </div>
                                 <div class="flex items-center justify-between mb-4">
@@ -356,7 +356,7 @@
                             </div>
                             <div class="p-4 flex flex-col flex-grow">
                                 <div class="flex-grow">
-                                    <h3 class="font-semibold text-gray-900 mb-2">กล่องสุ่มT-Rex</h3>
+                                    <h3 class="font-semibold text-gray-900 mb-2 truncate">กล่องสุ่มT-Rex</h3>
                                     <p class="text-sm text-gray-600 mb-4">กล่องสุ่มT-Rex</p>
                                 </div>
                                 <div class="flex items-center justify-between mb-4">
@@ -382,7 +382,7 @@
                             </div>
                             <div class="p-4 flex flex-col flex-grow">
                                 <div class="flex-grow">
-                                    <h3 class="font-semibold text-gray-900 mb-2">กล่องสุ่มหมีผึ้ง</h3>
+                                    <h3 class="font-semibold text-gray-900 mb-2 truncate">กล่องสุ่มหมีผึ้ง</h3>
                                     <p class="text-sm text-gray-600 mb-4">กล่องสุ่มหมีผึ้ง</p>
                                 </div>
                                 <div class="flex items-center justify-between mb-4">
