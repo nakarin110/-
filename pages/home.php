@@ -184,21 +184,21 @@
         <main class="flex-1 lg:ml-64">
             <!-- Top Navigation -->
             <header class="sticky top-0 bg-white border-b border-gray-200 z-40">
-                <div class="px-8 py-4 flex items-center justify-between">
-                    <div class="flex items-center gap-6">
+                <div class="px-4 sm:px-8 py-4 flex items-center justify-between">
+                    <div class="flex items-center gap-4">
                         <!-- Hamburger Menu Button -->
                         <button id="menu-button" class="lg:hidden text-gray-700 hover:text-purple-600 focus:outline-none">
                             <i class="fas fa-bars text-xl"></i>
                         </button>
                         <a href="#" class="hidden sm:block text-gray-700 hover:text-purple-600 font-medium transition">สินค้าใหม่</a>
                         <a href="#" class="hidden sm:block text-gray-700 hover:text-purple-600 font-medium transition">ขายดี</a>
-                        <a href="#" class="text-gray-700 hover:text-purple-600 font-medium transition">ลดราคา</a>
-                        <a href="#" class="text-gray-700 hover:text-purple-600 font-medium transition">ทั้งหมด</a>
+                        <a href="#" class="hidden sm:block text-gray-700 hover:text-purple-600 font-medium transition">ลดราคา</a>
+                        <a href="#" class="hidden sm:block text-gray-700 hover:text-purple-600 font-medium transition">ทั้งหมด</a>
                     </div>
                     
-                    <div class="flex items-center gap-4">
+                    <div class="flex items-center gap-2 sm:gap-4">
                         <div class="relative">
-                            <input type="text" placeholder="ค้นหาสินค้า..." class="pl-10 pr-4 py-2 bg-gray-100 rounded-lg text-sm text-gray-700 focus:bg-white focus:outline-none transition border border-gray-200 w-48"/>
+                            <input type="text" placeholder="ค้นหาสินค้า..." class="pl-10 pr-4 py-2 bg-gray-100 rounded-lg text-sm text-gray-700 focus:bg-white focus:outline-none transition border border-gray-200 w-32 sm:w-48"/>
                             <i class="fas fa-search absolute left-3 top-2.5 text-gray-400"></i>
                         </div>
                         
@@ -207,8 +207,8 @@
                             <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">0</span>
                         </a>
                         
-                        <a href="#" class="px-4 py-2 text-gray-700 hover:text-purple-600 font-medium transition">เข้าสู่ระบบ</a>
-                        <a href="#" class="px-6 py-2 bg-purple-600 text-white rounded-lg font-medium hover:bg-purple-700 btn-modern transition">สมัครสมาชิก</a>
+                        <a href="#" class="hidden sm:block px-4 py-2 text-gray-700 hover:text-purple-600 font-medium transition">เข้าสู่ระบบ</a>
+                        <a href="#" class="hidden sm:block px-6 py-2 bg-purple-600 text-white rounded-lg font-medium hover:bg-purple-700 btn-modern transition">สมัครสมาชิก</a>
                     </div>
                 </div>
             </header>
